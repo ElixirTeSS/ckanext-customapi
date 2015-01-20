@@ -8,10 +8,11 @@ def get_news(context,data_dict=None):
   # The actual custom API method
   #return {"hello":"world"}
   with open('/tmp/iann_events.json') as data_file:
-    data = json.load(data_file)
-    with open('/tmp/iann_events.json') as data_file:
+    try:
       data = json.load(data_file)
-   return(data)
+    except Exception, e:
+      data = {"exception":str(e)}
+  return(data)
 
 class CustomAPIPlugin(plugins.SingletonPlugin):
   plugins.implements(plugins.interfaces.IActions)
