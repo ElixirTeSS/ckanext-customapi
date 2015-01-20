@@ -1,0 +1,11 @@
+setup.py
+ckanext/__init__.py
+ckanext/customapi/__init__.py
+ckanext/customapi/plugin.py
+ckanext_customapi.egg-info/PKG-INFO
+ckanext_customapi.egg-info/SOURCES.txt
+ckanext_customapi.egg-info/dependency_links.txt
+ckanext_customapi.egg-info/entry_points.txt
+ckanext_customapi.egg-info/namespace_packages.txt
+ckanext_customapi.egg-info/not-zip-safe
+ckanext_customapi.egg-info/top_level.txt

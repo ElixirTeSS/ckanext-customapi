@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ckanext-customapi
+Version: 0.1
+Summary: Attempt to add another route to the API.
+Home-page: http://tess.oerc.ox.ac.uk
+Author: Milo
+Author-email: milo.thurston@oerc.ox.ac.uk
+License: GPL
+Description: 
+            
+Platform: UNKNOWN
